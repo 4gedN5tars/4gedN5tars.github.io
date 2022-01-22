@@ -1,0 +1,99 @@
+/*
+*{
+margin: 0;
+padding: 0;
+} this is how you commentstuff out and this is how you include all elements */  
+    h1{
+    color:rgb(252, 1, 189);
+}
+
+body{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(0, 19, 75);
+    border-style: solid;
+    border-width: 5px;
+    border-color: seagreen;
+    font: 22px Arial, Helvetica, sans-serif;
+    color: skyblue;
+    line-height: 1.4em;
+}
+
+.farttop{
+    background-color: purple  ;
+
+}
+
+
+.container{ 
+    width: 80%;
+    border:   rebeccapurple 2px;
+    margin:auto;
+
+}
+
+
+.header{
+    padding:1%;
+    margin:2%;
+    border-width:1%;
+    border:red 2px;
+}
+
+.sh{
+    margin:1px 1px 1px 1px;
+    border: red solid;
+}
+
+.internallinks{
+    border:1px yellowgreen dotted;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+.internallinks li{
+    
+    list-style: none;
+    text-decoration: none; 
+    color: yellow;
+}
+
+#block{
+    float: left;
+    width:33.3%;
+    height: 300px;
+    border: purple solid 10px;
+    box-sizing: border-box ;
+
+    background-image: url(../images/yes.gif);
+}
+
+#peebox{
+    width: 800px; 
+    height: 500px;    
+    border:yellow solid 2px;
+    position: relative;
+}
+#peebox h1{
+    position: absolute;
+    left: 50px;
+}
+#peebox h2{
+    position: relative;
+    left:50px;
+}
+#peebox h3{
+    position: fixed;
+    top: 400px;
+    }
+
+.list li:first-child{
+    background: red;
+}    
+.list li:last-child{
+    background: black;
+}
+.list li:nth-child(2){
+    background: yellow;
+}

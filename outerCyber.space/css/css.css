@@ -1,0 +1,52 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(3, 3, 75);
+}
+
+.header{
+    
+    width: 100%;
+    height: auto;
+    font:oblique; 
+    color: rgb(19, 223, 223);
+    background-color: black;
+    float: inline-end;
+}
+.header abbr{background-color: black;}
+.header a{
+    color:rgb(6, 250, 6) ;
+    list-style: none;
+    text-decoration: none; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float:right;
+    padding-right: 2% ;
+    padding-top: 1%;
+    background-color: black;
+    font-size: larger;
+    
+} 
+    
+.header h1{
+    display: inline-block;
+    background-color: black;
+    width:auto;
+    padding:1%;
+    padding-left: 3%;
+}
+h2{
+    color:cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+abbr{
+    list-style: none;
+    text-decoration: none; 
+     
+}
+.pnglink img{
+    padding: 25% 50%;
+
+} 
